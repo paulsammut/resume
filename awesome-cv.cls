@@ -88,7 +88,8 @@
   pdfsubject={},
   pdfkeywords={}
 }
-
+% Check for empty parameters
+\RequirePackage{xparse}
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -604,7 +605,10 @@
       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
       \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
+    \ifempty{#5}
+      { \\}
+      {\\ \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}} \\}
+    
   \end{tabular*}%
 }
 
