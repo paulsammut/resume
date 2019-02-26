@@ -9,4 +9,4 @@ It was really painful setting everything up and tweaking things to my liking,
 but once I did, having an version controlled resume with automic PDF gen on
 every change and being able to do it in Vim is really really awesome.
 
-[Link to the latest build of my Resume][base/resume.pdf]
+[Link to the latest build of my Resume](base/resume.pdf)
