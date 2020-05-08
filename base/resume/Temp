@@ -1,0 +1,7 @@
+
+        \item {Specified a power and digital comms interface PCB, to serve as an electrical bridge between vehicle and camera. Wrote all firmware in C for the MCU.}
+        \item {Designed a cellular modem solution for the 360 camera system to provide a high speed LTE connection.} \item {Designed a 5 discreet antenna solution for Wifi MIMO, GPS, LTE MIMO that was housed in a micromobility vehicle and requested custom post processing from Taolas for environmental protection.}
+        \item {Identified the need for a hardware tracking database and created an Airtable Base along with a suite of client side software in python and LabVIEW that automatically tracked things such as production gates, firmware/software updates, QA inspections an updated the Base via REST API.}
+        \item {Designed an IP69 environmental sealing system with 3 discreet electronics enclosure chambers and 6 electrical passthroughs.}
+        \item {Created an assembly cell to facilitate final assembly of hardware units coming from Asia with overhead torque controlled fastener drivers and automated labeling and barcode scan based asset/QA tracking.}
+        \item {Successfully served as hardware techlead of a 5 person mechatronics group during monthlong absence of EM.}
