@@ -12,3 +12,6 @@ being able to do it in Vim was really really awesome.
 [Link to the latest build of my Resume.](base/resume.pdf)
 
 This resume is based on Byungjin Park's awesome Awesome-CV. Thanks bud!
+
+To get fontawesome working, I opened `FontAwesome.ttf` and clicked install. Then
+I commented out the font definition.
